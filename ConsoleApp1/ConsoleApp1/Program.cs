@@ -9,11 +9,7 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            Vehiculo a;
-            Sucursal s = new Sucursal("asd", "asd");
-            s.agregarVehiculo(a);
-
+        { 
 
         }
     }

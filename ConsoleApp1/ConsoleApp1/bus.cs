@@ -8,5 +8,9 @@ namespace ConsoleApp1
 {
     class Bus : Vehiculo
     {
+        public Bus(string marca, int motor, string patente) : base ( marca, motor, patente)
+        {
+
+        }
     }
 }

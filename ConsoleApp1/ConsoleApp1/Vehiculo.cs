@@ -6,16 +6,26 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Vehiculo
+    abstract class Vehiculo
 
     {
-        string marca;
-        int motor;
+        public string marca;
+        public int motor;
+        public string patente;
+        protected Cliente cliente;
 
-        public Vehiculo(string marca, int motor)
+        public Vehiculo(string marca, int motor, string patente)
         {
-            marca = marca;
-            motor = motor;
+            this.marca = marca;
+            this.motor = motor;
+            this.patente = patente;
+        }
+        public bool Verificacion(Cliente cliente)
+        {
+            if (cliente.GetType() == typeof(Persona))
+            {
+
+            }
         }
     }
 }
