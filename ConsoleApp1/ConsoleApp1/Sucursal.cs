@@ -8,15 +8,15 @@ namespace ConsoleApp1
 {
     class Sucursal
     {
-        List<vehiculos> vehiculos = new List<vehiculos>;
+        List<Vehiculo> vehiculos = new List<Vehiculo>();
 
         string direccion;
         string nombre;
 
         public Sucursal ( string nombre, string direccion)
         {
-            direccion = direccion;
-            nombre = nombre;
+            this.direccion = direccion;
+            this.nombre = nombre;
         }
            
 

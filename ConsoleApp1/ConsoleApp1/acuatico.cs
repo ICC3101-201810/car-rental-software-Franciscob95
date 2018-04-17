@@ -8,8 +8,12 @@ namespace ConsoleApp1
 {
     class Acuatico : Vehiculo
     {
-        public Acuatico(string marca, int motor, string patente) : base ( marca, motor, patente)
+        public Acuatico(string marca, int motor, string patente, string permiso) : base ( marca, motor, patente, permiso)
         {
+            this.marca = marca;
+            this.motor = motor;
+            this.patente = patente;
+            this.permiso = permiso;
 
         }
     }

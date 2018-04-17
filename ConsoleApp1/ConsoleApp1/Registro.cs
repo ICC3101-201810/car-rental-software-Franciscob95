@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Registro : Vehiculo
+    class Registro 
     {
         string cliente;
         Vehiculo vehiculo;
@@ -16,15 +16,16 @@ namespace ConsoleApp1
         DateTime termino;
         int valorServicio;
 
-        public Arriendo(string cliente, Vehiculo vehiculo, string sucursal, string accesorios, DateTime inicio, DateTime termino, int valorServivio)
+        public Registro(string cliente, Vehiculo vehiculo, string sucursal, string accesorios, DateTime inicio, DateTime termino, int valorServicio)
         {
-            cliente = cliente;
-            vehiculo = vehiculo;
-            sucursal = sucursal;
-            accesorios = accesorios;
-            inicio = inicio;
-            termino = termino;
-            valorServicio = valorServicio;
+            this.cliente = cliente;
+            this.vehiculo = vehiculo;
+            this.sucursal = sucursal;
+            this.accesorios = accesorios;
+            this.inicio = inicio;
+            this.termino = termino;
+            this.valorServicio = valorServicio;
         }
+
     }
 }

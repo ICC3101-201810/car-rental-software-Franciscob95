@@ -17,5 +17,9 @@ namespace ConsoleApp1
             this.autorizacion = autorizacion;
 
         }
+        public bool GetAutorizacion()
+        {
+            return autorizacion;
+        }
     }
 }

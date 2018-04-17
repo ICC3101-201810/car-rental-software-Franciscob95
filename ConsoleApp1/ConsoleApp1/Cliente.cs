@@ -16,7 +16,5 @@ namespace ConsoleApp1
             this.nombre = nombre;
             this.RUT = RUT;
         }
-
-        public abstract int GetID();
     }
 }

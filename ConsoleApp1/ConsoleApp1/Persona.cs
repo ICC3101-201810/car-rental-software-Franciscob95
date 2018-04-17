@@ -15,5 +15,9 @@ namespace ConsoleApp1
             this.RUT = RUT;
             this.TipoDeLicencia = TipoDeLicencia;
         }
+        public string GetLicencia()
+        {
+            return TipoDeLicencia;
+        }
     }
 }
